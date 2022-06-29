@@ -16,7 +16,7 @@ func getSetPath() string {
 	usr, _ := user.Current()
 	st := strconv.QuoteRune(os.PathSeparator)
 	st = st[1 : len(st)-1]
-	return usr.HomeDir + st + ".download-manager"
+	return usr.HomeDir + st + ".jf17-download-manager"
 }
 
 func main() {
