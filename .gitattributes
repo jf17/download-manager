@@ -1,0 +1,2 @@
+*.htm           text diff=html
+*.html          text diff=html
